@@ -1,12 +1,17 @@
 import React, { Component } from "react";
 import "./App.css";
-import News from "./News/News";
+import Users from "./Users/Users";
+import Banner from "./Banner/Banner";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <News />
+        <Banner
+          title="react"
+          subTitle="Just playing around with JSON Placeholder API"
+        />
+        <Users />
       </div>
     );
   }
